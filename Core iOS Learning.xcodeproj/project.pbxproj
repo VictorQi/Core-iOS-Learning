@@ -14,6 +14,15 @@
 		B6121ED01D86716F0066C818 /* Core_iOS_Learning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6121ECE1D86716F0066C818 /* Core_iOS_Learning.xcdatamodeld */; };
 		B6121ED21D86716F0066C818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6121ED11D86716F0066C818 /* Assets.xcassets */; };
 		B6121ED51D86716F0066C818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6121ED31D86716F0066C818 /* LaunchScreen.storyboard */; };
+		B6121EDF1D8671AA0066C818 /* VQImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EDE1D8671AA0066C818 /* VQImageView.m */; };
+		B6121EE31D8673870066C818 /* UIView+transform.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EE21D8673870066C818 /* UIView+transform.m */; };
+		B6121EE61D8693070066C818 /* cap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6121EE51D8693070066C818 /* cap.jpg */; };
+		B692F8FF1D97A92200457383 /* VQCircleRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F8FE1D97A92200457383 /* VQCircleRecognizer.m */; };
+		B692F90D1D97AC1500457383 /* VQGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F90C1D97AC1500457383 /* VQGeometry.m */; };
+		B692F9111D98183100457383 /* UIBezierPath+Points.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F9101D98183100457383 /* UIBezierPath+Points.m */; };
+		B699DD9F1D87A6EA00382BEC /* VQHitTestImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B699DD9E1D87A6EA00382BEC /* VQHitTestImageView.m */; };
+		B6C45F171D89783A000EF40C /* VQSmoothDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C45F161D89783A000EF40C /* VQSmoothDrawingView.m */; };
+		B6C45F1A1D897884000EF40C /* UIBezierPath+Smoothing.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C45F191D897884000EF40C /* UIBezierPath+Smoothing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +37,23 @@
 		B6121ED11D86716F0066C818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6121ED41D86716F0066C818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6121ED61D86716F0066C818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6121EDD1D8671AA0066C818 /* VQImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQImageView.h; sourceTree = "<group>"; };
+		B6121EDE1D8671AA0066C818 /* VQImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQImageView.m; sourceTree = "<group>"; };
+		B6121EE11D8673870066C818 /* UIView+transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+transform.h"; sourceTree = "<group>"; };
+		B6121EE21D8673870066C818 /* UIView+transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+transform.m"; sourceTree = "<group>"; };
+		B6121EE51D8693070066C818 /* cap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap.jpg; sourceTree = "<group>"; };
+		B692F8FD1D97A92200457383 /* VQCircleRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQCircleRecognizer.h; sourceTree = "<group>"; };
+		B692F8FE1D97A92200457383 /* VQCircleRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQCircleRecognizer.m; sourceTree = "<group>"; };
+		B692F90C1D97AC1500457383 /* VQGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQGeometry.m; sourceTree = "<group>"; };
+		B692F90E1D97AC3300457383 /* VQGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VQGeometry.h; sourceTree = "<group>"; };
+		B692F90F1D98183100457383 /* UIBezierPath+Points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Points.h"; sourceTree = "<group>"; };
+		B692F9101D98183100457383 /* UIBezierPath+Points.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Points.m"; sourceTree = "<group>"; };
+		B699DD9D1D87A6EA00382BEC /* VQHitTestImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQHitTestImageView.h; sourceTree = "<group>"; };
+		B699DD9E1D87A6EA00382BEC /* VQHitTestImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQHitTestImageView.m; sourceTree = "<group>"; };
+		B6C45F151D89783A000EF40C /* VQSmoothDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQSmoothDrawingView.h; sourceTree = "<group>"; };
+		B6C45F161D89783A000EF40C /* VQSmoothDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQSmoothDrawingView.m; sourceTree = "<group>"; };
+		B6C45F181D897884000EF40C /* UIBezierPath+Smoothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Smoothing.h"; sourceTree = "<group>"; };
+		B6C45F191D897884000EF40C /* UIBezierPath+Smoothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Smoothing.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,16 +86,13 @@
 		B6121EC11D86716F0066C818 /* Core iOS Learning */ = {
 			isa = PBXGroup;
 			children = (
-				B6121EC51D86716F0066C818 /* AppDelegate.h */,
-				B6121EC61D86716F0066C818 /* AppDelegate.m */,
-				B6121EC81D86716F0066C818 /* ViewController.h */,
-				B6121EC91D86716F0066C818 /* ViewController.m */,
-				B6121ECB1D86716F0066C818 /* Main.storyboard */,
-				B6121ED11D86716F0066C818 /* Assets.xcassets */,
-				B6121ED31D86716F0066C818 /* LaunchScreen.storyboard */,
-				B6121ED61D86716F0066C818 /* Info.plist */,
-				B6121ECE1D86716F0066C818 /* Core_iOS_Learning.xcdatamodeld */,
+				B692F8F91D964D0B00457383 /* Models */,
+				B6121EE71D86930D0066C818 /* Resources */,
 				B6121EC21D86716F0066C818 /* Supporting Files */,
+				B6121EE01D86734D0066C818 /* Tools */,
+				B6121EE41D8692D60066C818 /* ViewControllers */,
+				B6121EDC1D86717D0066C818 /* Views */,
+				B6121ED61D86716F0066C818 /* Info.plist */,
 			);
 			path = "Core iOS Learning";
 			sourceTree = "<group>";
@@ -77,9 +100,69 @@
 		B6121EC21D86716F0066C818 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6121ECE1D86716F0066C818 /* Core_iOS_Learning.xcdatamodeld */,
 				B6121EC31D86716F0066C818 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6121EDC1D86717D0066C818 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B699DD9D1D87A6EA00382BEC /* VQHitTestImageView.h */,
+				B699DD9E1D87A6EA00382BEC /* VQHitTestImageView.m */,
+				B6121EDD1D8671AA0066C818 /* VQImageView.h */,
+				B6121EDE1D8671AA0066C818 /* VQImageView.m */,
+				B6C45F151D89783A000EF40C /* VQSmoothDrawingView.h */,
+				B6C45F161D89783A000EF40C /* VQSmoothDrawingView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6121EE01D86734D0066C818 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B692F90F1D98183100457383 /* UIBezierPath+Points.h */,
+				B692F9101D98183100457383 /* UIBezierPath+Points.m */,
+				B6C45F181D897884000EF40C /* UIBezierPath+Smoothing.h */,
+				B6C45F191D897884000EF40C /* UIBezierPath+Smoothing.m */,
+				B6121EE11D8673870066C818 /* UIView+transform.h */,
+				B6121EE21D8673870066C818 /* UIView+transform.m */,
+				B692F8FD1D97A92200457383 /* VQCircleRecognizer.h */,
+				B692F8FE1D97A92200457383 /* VQCircleRecognizer.m */,
+				B692F90E1D97AC3300457383 /* VQGeometry.h */,
+				B692F90C1D97AC1500457383 /* VQGeometry.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B6121EE41D8692D60066C818 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6121EC51D86716F0066C818 /* AppDelegate.h */,
+				B6121EC61D86716F0066C818 /* AppDelegate.m */,
+				B6121EC81D86716F0066C818 /* ViewController.h */,
+				B6121EC91D86716F0066C818 /* ViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B6121EE71D86930D0066C818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6121ED11D86716F0066C818 /* Assets.xcassets */,
+				B6121ED31D86716F0066C818 /* LaunchScreen.storyboard */,
+				B6121ECB1D86716F0066C818 /* Main.storyboard */,
+				B6121EE51D8693070066C818 /* cap.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B692F8F91D964D0B00457383 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,7 +191,8 @@
 		B6121EB71D86716F0066C818 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				CLASSPREFIX = VQ;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Victor Qi";
 				TargetAttributes = {
 					B6121EBE1D86716F0066C818 = {
@@ -142,6 +226,7 @@
 			files = (
 				B6121ED51D86716F0066C818 /* LaunchScreen.storyboard in Resources */,
 				B6121ED21D86716F0066C818 /* Assets.xcassets in Resources */,
+				B6121EE61D8693070066C818 /* cap.jpg in Resources */,
 				B6121ECD1D86716F0066C818 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,10 +238,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C45F1A1D897884000EF40C /* UIBezierPath+Smoothing.m in Sources */,
+				B6C45F171D89783A000EF40C /* VQSmoothDrawingView.m in Sources */,
+				B692F90D1D97AC1500457383 /* VQGeometry.m in Sources */,
 				B6121ED01D86716F0066C818 /* Core_iOS_Learning.xcdatamodeld in Sources */,
+				B6121EE31D8673870066C818 /* UIView+transform.m in Sources */,
 				B6121ECA1D86716F0066C818 /* ViewController.m in Sources */,
 				B6121EC71D86716F0066C818 /* AppDelegate.m in Sources */,
+				B692F8FF1D97A92200457383 /* VQCircleRecognizer.m in Sources */,
+				B692F9111D98183100457383 /* UIBezierPath+Points.m in Sources */,
 				B6121EC41D86716F0066C818 /* main.m in Sources */,
+				B6121EDF1D8671AA0066C818 /* VQImageView.m in Sources */,
+				B699DD9F1D87A6EA00382BEC /* VQHitTestImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +262,7 @@
 				B6121ECC1D86716F0066C818 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		B6121ED31D86716F0066C818 /* LaunchScreen.storyboard */ = {
@@ -177,6 +271,7 @@
 				B6121ED41D86716F0066C818 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -196,8 +291,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -241,8 +338,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -307,6 +406,7 @@
 				B6121EDB1D86716F0066C818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
