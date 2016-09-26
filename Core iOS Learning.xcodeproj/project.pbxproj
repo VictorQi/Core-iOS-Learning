@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5794A2D01D98FEC10088C9C5 /* VQModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5794A2CF1D98FEC10088C9C5 /* VQModels.m */; };
+		5794A2D31D98FF1D0088C9C5 /* VQCustomGestureTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5794A2D21D98FF1D0088C9C5 /* VQCustomGestureTestView.m */; };
 		B6121EC41D86716F0066C818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EC31D86716F0066C818 /* main.m */; };
 		B6121EC71D86716F0066C818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EC61D86716F0066C818 /* AppDelegate.m */; };
 		B6121ECA1D86716F0066C818 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EC91D86716F0066C818 /* ViewController.m */; };
@@ -26,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5794A2CE1D98FEC10088C9C5 /* VQModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQModels.h; sourceTree = "<group>"; };
+		5794A2CF1D98FEC10088C9C5 /* VQModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQModels.m; sourceTree = "<group>"; };
+		5794A2D11D98FF1D0088C9C5 /* VQCustomGestureTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQCustomGestureTestView.h; sourceTree = "<group>"; };
+		5794A2D21D98FF1D0088C9C5 /* VQCustomGestureTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQCustomGestureTestView.m; sourceTree = "<group>"; };
 		B6121EBF1D86716F0066C818 /* Core iOS Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core iOS Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6121EC31D86716F0066C818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6121EC51D86716F0066C818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +73,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5794A2C91D98FE430088C9C5 /* Extensions&Category */ = {
+			isa = PBXGroup;
+			children = (
+				B692F90F1D98183100457383 /* UIBezierPath+Points.h */,
+				B692F9101D98183100457383 /* UIBezierPath+Points.m */,
+				B6C45F181D897884000EF40C /* UIBezierPath+Smoothing.h */,
+				B6C45F191D897884000EF40C /* UIBezierPath+Smoothing.m */,
+				B6121EE11D8673870066C818 /* UIView+transform.h */,
+				B6121EE21D8673870066C818 /* UIView+transform.m */,
+			);
+			path = "Extensions&Category";
+			sourceTree = "<group>";
+		};
 		B6121EB61D86716F0066C818 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +105,7 @@
 		B6121EC11D86716F0066C818 /* Core iOS Learning */ = {
 			isa = PBXGroup;
 			children = (
+				5794A2C91D98FE430088C9C5 /* Extensions&Category */,
 				B692F8F91D964D0B00457383 /* Models */,
 				B6121EE71D86930D0066C818 /* Resources */,
 				B6121EC21D86716F0066C818 /* Supporting Files */,
@@ -115,6 +135,8 @@
 				B6121EDE1D8671AA0066C818 /* VQImageView.m */,
 				B6C45F151D89783A000EF40C /* VQSmoothDrawingView.h */,
 				B6C45F161D89783A000EF40C /* VQSmoothDrawingView.m */,
+				5794A2D11D98FF1D0088C9C5 /* VQCustomGestureTestView.h */,
+				5794A2D21D98FF1D0088C9C5 /* VQCustomGestureTestView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,12 +144,6 @@
 		B6121EE01D86734D0066C818 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				B692F90F1D98183100457383 /* UIBezierPath+Points.h */,
-				B692F9101D98183100457383 /* UIBezierPath+Points.m */,
-				B6C45F181D897884000EF40C /* UIBezierPath+Smoothing.h */,
-				B6C45F191D897884000EF40C /* UIBezierPath+Smoothing.m */,
-				B6121EE11D8673870066C818 /* UIView+transform.h */,
-				B6121EE21D8673870066C818 /* UIView+transform.m */,
 				B692F8FD1D97A92200457383 /* VQCircleRecognizer.h */,
 				B692F8FE1D97A92200457383 /* VQCircleRecognizer.m */,
 				B692F90E1D97AC3300457383 /* VQGeometry.h */,
@@ -161,6 +177,8 @@
 		B692F8F91D964D0B00457383 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5794A2CE1D98FEC10088C9C5 /* VQModels.h */,
+				5794A2CF1D98FEC10088C9C5 /* VQModels.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -239,12 +257,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6C45F1A1D897884000EF40C /* UIBezierPath+Smoothing.m in Sources */,
+				5794A2D01D98FEC10088C9C5 /* VQModels.m in Sources */,
 				B6C45F171D89783A000EF40C /* VQSmoothDrawingView.m in Sources */,
 				B692F90D1D97AC1500457383 /* VQGeometry.m in Sources */,
 				B6121ED01D86716F0066C818 /* Core_iOS_Learning.xcdatamodeld in Sources */,
 				B6121EE31D8673870066C818 /* UIView+transform.m in Sources */,
 				B6121ECA1D86716F0066C818 /* ViewController.m in Sources */,
 				B6121EC71D86716F0066C818 /* AppDelegate.m in Sources */,
+				5794A2D31D98FF1D0088C9C5 /* VQCustomGestureTestView.m in Sources */,
 				B692F8FF1D97A92200457383 /* VQCircleRecognizer.m in Sources */,
 				B692F9111D98183100457383 /* UIBezierPath+Points.m in Sources */,
 				B6121EC41D86716F0066C818 /* main.m in Sources */,

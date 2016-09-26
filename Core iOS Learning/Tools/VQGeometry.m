@@ -123,7 +123,7 @@ CGRect testForCircle(NSArray *points, NSDate *firstTouchDate) {
     }
     
     //验证2： 画圆的方向变化次数应该限制在4次
-    __block NSInteger inflections = 0;
+    NSInteger inflections = 0;
     for (NSInteger i = 2; i < (points.count - 1); i++) {
         CGFloat deltax = GEODx(POINT(i), POINT(i-1));
         CGFloat deltay = GEODy(POINT(i), POINT(i-1));

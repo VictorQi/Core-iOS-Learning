@@ -12,7 +12,6 @@
 #import <UIKit/UIGestureRecognizerSubclass.h>
 
 @interface VQCircleRecognizer ()
-@property (nonatomic, readwrite, assign) CGRect circleRect;
 @property (nonatomic, strong) NSMutableArray *points;
 @property (nonatomic, strong) NSDate *firstTouchDate;
 @end
@@ -52,9 +51,10 @@
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesEnded:touches withEvent:event];
     
-    self.circleRect = testForCircle([self.points copy], self.firstTouchDate);
-    BOOL detectionSuccess = CGRectEqualToRect(CGRectZero, self.circleRect);
+    CGRect circleRect = testForCircle(self.points, self.firstTouchDate);
+    BOOL detectionSuccess = !CGRectEqualToRect(CGRectZero, circleRect);
     if (detectionSuccess) {
+        [self drawCircleInView:circleRect];
         self.state = UIGestureRecognizerStateRecognized;
     } else {
         self.state = UIGestureRecognizerStateFailed;
@@ -62,15 +62,22 @@
 }
 
 - (void)drawCircleInView:(CGRect)circle {
-    if (CGRectEqualToRect(CGRectZero, circle)) {
-        NSLog(@"failed circle");
-        return;
-    }
+
+    CGRect centerRect = GEORectAroundCenter(GEORectGetCenter(circle), 2.0f, 2.0f);
+    UIBezierPath *centerPath = [UIBezierPath bezierPathWithOvalInRect:centerRect];
+    CAShapeLayer *centerLayer = [CAShapeLayer layer];
+    centerLayer.path = centerPath.CGPath;
+    centerLayer.lineWidth = 2.0f;
+    centerLayer.fillColor = [UIColor redColor].CGColor;
+    centerLayer.strokeColor = [UIColor clearColor].CGColor;
+    [self.view.layer addSublayer:centerLayer];
+    
     UIBezierPath *circlePath = [UIBezierPath bezierPathWithOvalInRect:circle];
     CAShapeLayer *circleLayer = [CAShapeLayer layer];
     circleLayer.path = circlePath.CGPath;
-    circleLayer.strokeColor = [UIColor redColor].CGColor;
     circleLayer.lineWidth = 1.0f;
+    circleLayer.strokeColor = [UIColor redColor].CGColor;
+    circleLayer.fillColor = [UIColor clearColor].CGColor;
     [self.view.layer addSublayer:circleLayer];
 }
 @end
