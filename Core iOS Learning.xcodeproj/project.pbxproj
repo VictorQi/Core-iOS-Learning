@@ -19,6 +19,8 @@
 		B6121EDF1D8671AA0066C818 /* VQImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EDE1D8671AA0066C818 /* VQImageView.m */; };
 		B6121EE31D8673870066C818 /* UIView+transform.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EE21D8673870066C818 /* UIView+transform.m */; };
 		B6121EE61D8693070066C818 /* cap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6121EE51D8693070066C818 /* cap.jpg */; };
+		B67068851D995E63009E9128 /* VQDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67068841D995E63009E9128 /* VQDragView.m */; };
+		B67068881D996871009E9128 /* VQPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67068871D996871009E9128 /* VQPullView.m */; };
 		B692F8FF1D97A92200457383 /* VQCircleRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F8FE1D97A92200457383 /* VQCircleRecognizer.m */; };
 		B692F90D1D97AC1500457383 /* VQGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F90C1D97AC1500457383 /* VQGeometry.m */; };
 		B692F9111D98183100457383 /* UIBezierPath+Points.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F9101D98183100457383 /* UIBezierPath+Points.m */; };
@@ -48,6 +50,10 @@
 		B6121EE11D8673870066C818 /* UIView+transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+transform.h"; sourceTree = "<group>"; };
 		B6121EE21D8673870066C818 /* UIView+transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+transform.m"; sourceTree = "<group>"; };
 		B6121EE51D8693070066C818 /* cap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap.jpg; sourceTree = "<group>"; };
+		B67068831D995E63009E9128 /* VQDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQDragView.h; sourceTree = "<group>"; };
+		B67068841D995E63009E9128 /* VQDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQDragView.m; sourceTree = "<group>"; };
+		B67068861D996871009E9128 /* VQPullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQPullView.h; sourceTree = "<group>"; };
+		B67068871D996871009E9128 /* VQPullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQPullView.m; sourceTree = "<group>"; };
 		B692F8FD1D97A92200457383 /* VQCircleRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQCircleRecognizer.h; sourceTree = "<group>"; };
 		B692F8FE1D97A92200457383 /* VQCircleRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQCircleRecognizer.m; sourceTree = "<group>"; };
 		B692F90C1D97AC1500457383 /* VQGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQGeometry.m; sourceTree = "<group>"; };
@@ -131,6 +137,10 @@
 			children = (
 				B699DD9D1D87A6EA00382BEC /* VQHitTestImageView.h */,
 				B699DD9E1D87A6EA00382BEC /* VQHitTestImageView.m */,
+				B67068831D995E63009E9128 /* VQDragView.h */,
+				B67068841D995E63009E9128 /* VQDragView.m */,
+				B67068861D996871009E9128 /* VQPullView.h */,
+				B67068871D996871009E9128 /* VQPullView.m */,
 				B6121EDD1D8671AA0066C818 /* VQImageView.h */,
 				B6121EDE1D8671AA0066C818 /* VQImageView.m */,
 				B6C45F151D89783A000EF40C /* VQSmoothDrawingView.h */,
@@ -262,9 +272,11 @@
 				B692F90D1D97AC1500457383 /* VQGeometry.m in Sources */,
 				B6121ED01D86716F0066C818 /* Core_iOS_Learning.xcdatamodeld in Sources */,
 				B6121EE31D8673870066C818 /* UIView+transform.m in Sources */,
+				B67068881D996871009E9128 /* VQPullView.m in Sources */,
 				B6121ECA1D86716F0066C818 /* ViewController.m in Sources */,
 				B6121EC71D86716F0066C818 /* AppDelegate.m in Sources */,
 				5794A2D31D98FF1D0088C9C5 /* VQCustomGestureTestView.m in Sources */,
+				B67068851D995E63009E9128 /* VQDragView.m in Sources */,
 				B692F8FF1D97A92200457383 /* VQCircleRecognizer.m in Sources */,
 				B692F9111D98183100457383 /* UIBezierPath+Points.m in Sources */,
 				B6121EC41D86716F0066C818 /* main.m in Sources */,
