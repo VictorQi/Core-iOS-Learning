@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "VQSecondViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)goNextVC:(id)sender {
+    [self performSegueWithIdentifier:@"goNext" sender:self];
 }
 
 @end

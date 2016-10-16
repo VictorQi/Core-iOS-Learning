@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		5794A2D01D98FEC10088C9C5 /* VQModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5794A2CF1D98FEC10088C9C5 /* VQModels.m */; };
 		5794A2D31D98FF1D0088C9C5 /* VQCustomGestureTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5794A2D21D98FF1D0088C9C5 /* VQCustomGestureTestView.m */; };
+		B60AAF951DB2267C000FC854 /* TOUCHKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AAF941DB2267C000FC854 /* TOUCHKitView.m */; };
+		B60AAF981DB226AE000FC854 /* TOUCHOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AAF971DB226AE000FC854 /* TOUCHOverlayWindow.m */; };
+		B60AAF9B1DB3B5B6000FC854 /* VQPushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AAF9A1DB3B5B6000FC854 /* VQPushButton.m */; };
+		B60AAF9E1DB3C348000FC854 /* VQSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AAF9D1DB3C348000FC854 /* VQSecondViewController.m */; };
 		B6121EC41D86716F0066C818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EC31D86716F0066C818 /* main.m */; };
 		B6121EC71D86716F0066C818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EC61D86716F0066C818 /* AppDelegate.m */; };
 		B6121ECA1D86716F0066C818 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EC91D86716F0066C818 /* ViewController.m */; };
@@ -25,6 +29,7 @@
 		B692F90D1D97AC1500457383 /* VQGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F90C1D97AC1500457383 /* VQGeometry.m */; };
 		B692F9111D98183100457383 /* UIBezierPath+Points.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F9101D98183100457383 /* UIBezierPath+Points.m */; };
 		B699DD9F1D87A6EA00382BEC /* VQHitTestImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B699DD9E1D87A6EA00382BEC /* VQHitTestImageView.m */; };
+		B6B699485329701538FF4A84 /* Pods_Core_iOS_Learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A892222B8DC1A0633F6627AD /* Pods_Core_iOS_Learning.framework */; };
 		B6C45F171D89783A000EF40C /* VQSmoothDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C45F161D89783A000EF40C /* VQSmoothDrawingView.m */; };
 		B6C45F1A1D897884000EF40C /* UIBezierPath+Smoothing.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C45F191D897884000EF40C /* UIBezierPath+Smoothing.m */; };
 /* End PBXBuildFile section */
@@ -34,6 +39,16 @@
 		5794A2CF1D98FEC10088C9C5 /* VQModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQModels.m; sourceTree = "<group>"; };
 		5794A2D11D98FF1D0088C9C5 /* VQCustomGestureTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQCustomGestureTestView.h; sourceTree = "<group>"; };
 		5794A2D21D98FF1D0088C9C5 /* VQCustomGestureTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQCustomGestureTestView.m; sourceTree = "<group>"; };
+		91F843E1750F49B4E09D251D /* Pods-Core iOS Learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core iOS Learning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Core iOS Learning/Pods-Core iOS Learning.debug.xcconfig"; sourceTree = "<group>"; };
+		A892222B8DC1A0633F6627AD /* Pods_Core_iOS_Learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core_iOS_Learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60AAF931DB2267C000FC854 /* TOUCHKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOUCHKitView.h; sourceTree = "<group>"; };
+		B60AAF941DB2267C000FC854 /* TOUCHKitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOUCHKitView.m; sourceTree = "<group>"; };
+		B60AAF961DB226AE000FC854 /* TOUCHOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOUCHOverlayWindow.h; sourceTree = "<group>"; };
+		B60AAF971DB226AE000FC854 /* TOUCHOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOUCHOverlayWindow.m; sourceTree = "<group>"; };
+		B60AAF991DB3B5B6000FC854 /* VQPushButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQPushButton.h; sourceTree = "<group>"; };
+		B60AAF9A1DB3B5B6000FC854 /* VQPushButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQPushButton.m; sourceTree = "<group>"; };
+		B60AAF9C1DB3C348000FC854 /* VQSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQSecondViewController.h; sourceTree = "<group>"; };
+		B60AAF9D1DB3C348000FC854 /* VQSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQSecondViewController.m; sourceTree = "<group>"; };
 		B6121EBF1D86716F0066C818 /* Core iOS Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core iOS Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6121EC31D86716F0066C818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6121EC51D86716F0066C818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +81,7 @@
 		B6C45F161D89783A000EF40C /* VQSmoothDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQSmoothDrawingView.m; sourceTree = "<group>"; };
 		B6C45F181D897884000EF40C /* UIBezierPath+Smoothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Smoothing.h"; sourceTree = "<group>"; };
 		B6C45F191D897884000EF40C /* UIBezierPath+Smoothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Smoothing.m"; sourceTree = "<group>"; };
+		E4D2008A82AF51B0E982AE7B /* Pods-Core iOS Learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core iOS Learning.release.xcconfig"; path = "Pods/Target Support Files/Pods-Core iOS Learning/Pods-Core iOS Learning.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,12 +89,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B699485329701538FF4A84 /* Pods_Core_iOS_Learning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		053F2F34040A9DFE51275DE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91F843E1750F49B4E09D251D /* Pods-Core iOS Learning.debug.xcconfig */,
+				E4D2008A82AF51B0E982AE7B /* Pods-Core iOS Learning.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28CD4C3D7459BDDD47553A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A892222B8DC1A0633F6627AD /* Pods_Core_iOS_Learning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5794A2C91D98FE430088C9C5 /* Extensions&Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +131,8 @@
 			children = (
 				B6121EC11D86716F0066C818 /* Core iOS Learning */,
 				B6121EC01D86716F0066C818 /* Products */,
+				053F2F34040A9DFE51275DE9 /* Pods */,
+				28CD4C3D7459BDDD47553A18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +183,8 @@
 				B6C45F161D89783A000EF40C /* VQSmoothDrawingView.m */,
 				5794A2D11D98FF1D0088C9C5 /* VQCustomGestureTestView.h */,
 				5794A2D21D98FF1D0088C9C5 /* VQCustomGestureTestView.m */,
+				B60AAF991DB3B5B6000FC854 /* VQPushButton.h */,
+				B60AAF9A1DB3B5B6000FC854 /* VQPushButton.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,6 +196,10 @@
 				B692F8FE1D97A92200457383 /* VQCircleRecognizer.m */,
 				B692F90E1D97AC3300457383 /* VQGeometry.h */,
 				B692F90C1D97AC1500457383 /* VQGeometry.m */,
+				B60AAF931DB2267C000FC854 /* TOUCHKitView.h */,
+				B60AAF941DB2267C000FC854 /* TOUCHKitView.m */,
+				B60AAF961DB226AE000FC854 /* TOUCHOverlayWindow.h */,
+				B60AAF971DB226AE000FC854 /* TOUCHOverlayWindow.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -169,6 +211,8 @@
 				B6121EC61D86716F0066C818 /* AppDelegate.m */,
 				B6121EC81D86716F0066C818 /* ViewController.h */,
 				B6121EC91D86716F0066C818 /* ViewController.m */,
+				B60AAF9C1DB3C348000FC854 /* VQSecondViewController.h */,
+				B60AAF9D1DB3C348000FC854 /* VQSecondViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -200,9 +244,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6121ED91D86716F0066C818 /* Build configuration list for PBXNativeTarget "Core iOS Learning" */;
 			buildPhases = (
+				395844145B57B86C38FE33EF /* [CP] Check Pods Manifest.lock */,
 				B6121EBB1D86716F0066C818 /* Sources */,
 				B6121EBC1D86716F0066C818 /* Frameworks */,
 				B6121EBD1D86716F0066C818 /* Resources */,
+				D71747D3C5C32E8FE4E8DBBA /* [CP] Embed Pods Frameworks */,
+				09C390870F1C61945DF21D34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,6 +308,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09C390870F1C61945DF21D34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Core iOS Learning/Pods-Core iOS Learning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		395844145B57B86C38FE33EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D71747D3C5C32E8FE4E8DBBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Core iOS Learning/Pods-Core iOS Learning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6121EBB1D86716F0066C818 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +363,7 @@
 			files = (
 				B6C45F1A1D897884000EF40C /* UIBezierPath+Smoothing.m in Sources */,
 				5794A2D01D98FEC10088C9C5 /* VQModels.m in Sources */,
+				B60AAF9B1DB3B5B6000FC854 /* VQPushButton.m in Sources */,
 				B6C45F171D89783A000EF40C /* VQSmoothDrawingView.m in Sources */,
 				B692F90D1D97AC1500457383 /* VQGeometry.m in Sources */,
 				B6121ED01D86716F0066C818 /* Core_iOS_Learning.xcdatamodeld in Sources */,
@@ -278,9 +374,12 @@
 				5794A2D31D98FF1D0088C9C5 /* VQCustomGestureTestView.m in Sources */,
 				B67068851D995E63009E9128 /* VQDragView.m in Sources */,
 				B692F8FF1D97A92200457383 /* VQCircleRecognizer.m in Sources */,
+				B60AAF9E1DB3C348000FC854 /* VQSecondViewController.m in Sources */,
 				B692F9111D98183100457383 /* UIBezierPath+Points.m in Sources */,
 				B6121EC41D86716F0066C818 /* main.m in Sources */,
+				B60AAF951DB2267C000FC854 /* TOUCHKitView.m in Sources */,
 				B6121EDF1D8671AA0066C818 /* VQImageView.m in Sources */,
+				B60AAF981DB226AE000FC854 /* TOUCHOverlayWindow.m in Sources */,
 				B699DD9F1D87A6EA00382BEC /* VQHitTestImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,6 +498,7 @@
 		};
 		B6121EDA1D86716F0066C818 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91F843E1750F49B4E09D251D /* Pods-Core iOS Learning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Core iOS Learning/Info.plist";
@@ -410,6 +510,7 @@
 		};
 		B6121EDB1D86716F0066C818 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D2008A82AF51B0E982AE7B /* Pods-Core iOS Learning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Core iOS Learning/Info.plist";
