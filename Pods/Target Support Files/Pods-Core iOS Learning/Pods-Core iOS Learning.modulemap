@@ -1,0 +1,6 @@
+framework module Pods_Core_iOS_Learning {
+  umbrella header "Pods-Core iOS Learning-umbrella.h"
+
+  export *
+  module * { export * }
+}
