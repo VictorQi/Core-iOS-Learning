@@ -23,6 +23,8 @@
 		B6121EDF1D8671AA0066C818 /* VQImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EDE1D8671AA0066C818 /* VQImageView.m */; };
 		B6121EE31D8673870066C818 /* UIView+transform.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EE21D8673870066C818 /* UIView+transform.m */; };
 		B6121EE61D8693070066C818 /* cap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6121EE51D8693070066C818 /* cap.jpg */; };
+		B64705181DB9026D00DE4C0D /* VQProjectUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B64705171DB9026D00DE4C0D /* VQProjectUtility.m */; };
+		B647051B1DB90CDA00DE4C0D /* VQCustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B647051A1DB90CDA00DE4C0D /* VQCustomSlider.m */; };
 		B67068851D995E63009E9128 /* VQDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67068841D995E63009E9128 /* VQDragView.m */; };
 		B67068881D996871009E9128 /* VQPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67068871D996871009E9128 /* VQPullView.m */; };
 		B692F8FF1D97A92200457383 /* VQCircleRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F8FE1D97A92200457383 /* VQCircleRecognizer.m */; };
@@ -65,6 +67,10 @@
 		B6121EE11D8673870066C818 /* UIView+transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+transform.h"; sourceTree = "<group>"; };
 		B6121EE21D8673870066C818 /* UIView+transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+transform.m"; sourceTree = "<group>"; };
 		B6121EE51D8693070066C818 /* cap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap.jpg; sourceTree = "<group>"; };
+		B64705161DB9026D00DE4C0D /* VQProjectUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQProjectUtility.h; sourceTree = "<group>"; };
+		B64705171DB9026D00DE4C0D /* VQProjectUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQProjectUtility.m; sourceTree = "<group>"; };
+		B64705191DB90CDA00DE4C0D /* VQCustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQCustomSlider.h; sourceTree = "<group>"; };
+		B647051A1DB90CDA00DE4C0D /* VQCustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQCustomSlider.m; sourceTree = "<group>"; };
 		B67068831D995E63009E9128 /* VQDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQDragView.h; sourceTree = "<group>"; };
 		B67068841D995E63009E9128 /* VQDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQDragView.m; sourceTree = "<group>"; };
 		B67068861D996871009E9128 /* VQPullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQPullView.h; sourceTree = "<group>"; };
@@ -173,6 +179,8 @@
 			children = (
 				B699DD9D1D87A6EA00382BEC /* VQHitTestImageView.h */,
 				B699DD9E1D87A6EA00382BEC /* VQHitTestImageView.m */,
+				B64705191DB90CDA00DE4C0D /* VQCustomSlider.h */,
+				B647051A1DB90CDA00DE4C0D /* VQCustomSlider.m */,
 				B67068831D995E63009E9128 /* VQDragView.h */,
 				B67068841D995E63009E9128 /* VQDragView.m */,
 				B67068861D996871009E9128 /* VQPullView.h */,
@@ -200,6 +208,8 @@
 				B60AAF941DB2267C000FC854 /* TOUCHKitView.m */,
 				B60AAF961DB226AE000FC854 /* TOUCHOverlayWindow.h */,
 				B60AAF971DB226AE000FC854 /* TOUCHOverlayWindow.m */,
+				B64705161DB9026D00DE4C0D /* VQProjectUtility.h */,
+				B64705171DB9026D00DE4C0D /* VQProjectUtility.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -363,12 +373,14 @@
 			files = (
 				B6C45F1A1D897884000EF40C /* UIBezierPath+Smoothing.m in Sources */,
 				5794A2D01D98FEC10088C9C5 /* VQModels.m in Sources */,
+				B647051B1DB90CDA00DE4C0D /* VQCustomSlider.m in Sources */,
 				B60AAF9B1DB3B5B6000FC854 /* VQPushButton.m in Sources */,
 				B6C45F171D89783A000EF40C /* VQSmoothDrawingView.m in Sources */,
 				B692F90D1D97AC1500457383 /* VQGeometry.m in Sources */,
 				B6121ED01D86716F0066C818 /* Core_iOS_Learning.xcdatamodeld in Sources */,
 				B6121EE31D8673870066C818 /* UIView+transform.m in Sources */,
 				B67068881D996871009E9128 /* VQPullView.m in Sources */,
+				B64705181DB9026D00DE4C0D /* VQProjectUtility.m in Sources */,
 				B6121ECA1D86716F0066C818 /* ViewController.m in Sources */,
 				B6121EC71D86716F0066C818 /* AppDelegate.m in Sources */,
 				5794A2D31D98FF1D0088C9C5 /* VQCustomGestureTestView.m in Sources */,
