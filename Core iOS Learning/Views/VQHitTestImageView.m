@@ -71,7 +71,7 @@ NSData *getBitmapFromImage(UIImage *sourceImage) {
     if (self) {
         self.userInteractionEnabled = YES;
         if (self.image) {
-            imageData = getBitmapFromImage(self.image);
+//            imageData = getBitmapFromImage(self.image);
         }
     }
     return self;

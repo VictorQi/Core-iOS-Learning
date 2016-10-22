@@ -7,9 +7,11 @@
 //
 
 #import "VQSecondViewController.h"
-#import "VQPushButton.h"
 #import "Masonry.h"
+#import "VQPushButton.h"
 #import "VQCustomSlider.h"
+#import "VQRatingSlider.h"
+
 @interface VQSecondViewController ()
 @property (nonatomic, strong) VQPushButton *pushBtn;
 @end
@@ -19,6 +21,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor cyanColor];
     
     self.pushBtn = [VQPushButton button];
     [self.view addSubview:self.pushBtn];
@@ -35,6 +39,13 @@
         make.centerX.equalTo(self.view);
         make.centerY.equalTo(self.view).offset(100);
         make.width.mas_equalTo(240);
+    }];
+    
+    VQRatingSlider *ratingSlider = [VQRatingSlider new];
+    [self.view addSubview:ratingSlider];
+    [ratingSlider mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.equalTo(self.view);
+        make.top.equalTo(self.view).offset(100);
     }];
 }
 

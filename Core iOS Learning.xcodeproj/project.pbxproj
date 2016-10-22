@@ -27,6 +27,8 @@
 		B647051B1DB90CDA00DE4C0D /* VQCustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B647051A1DB90CDA00DE4C0D /* VQCustomSlider.m */; };
 		B67068851D995E63009E9128 /* VQDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67068841D995E63009E9128 /* VQDragView.m */; };
 		B67068881D996871009E9128 /* VQPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67068871D996871009E9128 /* VQPullView.m */; };
+		B692E0BA1DBB9D9C00379902 /* VQColorControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B692E0B91DBB9D9C00379902 /* VQColorControl.m */; };
+		B692E0BD1DBBACDB00379902 /* VQRatingSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B692E0BC1DBBACDB00379902 /* VQRatingSlider.m */; };
 		B692F8FF1D97A92200457383 /* VQCircleRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F8FE1D97A92200457383 /* VQCircleRecognizer.m */; };
 		B692F90D1D97AC1500457383 /* VQGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F90C1D97AC1500457383 /* VQGeometry.m */; };
 		B692F9111D98183100457383 /* UIBezierPath+Points.m in Sources */ = {isa = PBXBuildFile; fileRef = B692F9101D98183100457383 /* UIBezierPath+Points.m */; };
@@ -75,6 +77,10 @@
 		B67068841D995E63009E9128 /* VQDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQDragView.m; sourceTree = "<group>"; };
 		B67068861D996871009E9128 /* VQPullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQPullView.h; sourceTree = "<group>"; };
 		B67068871D996871009E9128 /* VQPullView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQPullView.m; sourceTree = "<group>"; };
+		B692E0B81DBB9D9C00379902 /* VQColorControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQColorControl.h; sourceTree = "<group>"; };
+		B692E0B91DBB9D9C00379902 /* VQColorControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQColorControl.m; sourceTree = "<group>"; };
+		B692E0BB1DBBACDB00379902 /* VQRatingSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQRatingSlider.h; sourceTree = "<group>"; };
+		B692E0BC1DBBACDB00379902 /* VQRatingSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQRatingSlider.m; sourceTree = "<group>"; };
 		B692F8FD1D97A92200457383 /* VQCircleRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQCircleRecognizer.h; sourceTree = "<group>"; };
 		B692F8FE1D97A92200457383 /* VQCircleRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQCircleRecognizer.m; sourceTree = "<group>"; };
 		B692F90C1D97AC1500457383 /* VQGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQGeometry.m; sourceTree = "<group>"; };
@@ -193,6 +199,10 @@
 				5794A2D21D98FF1D0088C9C5 /* VQCustomGestureTestView.m */,
 				B60AAF991DB3B5B6000FC854 /* VQPushButton.h */,
 				B60AAF9A1DB3B5B6000FC854 /* VQPushButton.m */,
+				B692E0B81DBB9D9C00379902 /* VQColorControl.h */,
+				B692E0B91DBB9D9C00379902 /* VQColorControl.m */,
+				B692E0BB1DBBACDB00379902 /* VQRatingSlider.h */,
+				B692E0BC1DBBACDB00379902 /* VQRatingSlider.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -371,7 +381,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B692E0BA1DBB9D9C00379902 /* VQColorControl.m in Sources */,
 				B6C45F1A1D897884000EF40C /* UIBezierPath+Smoothing.m in Sources */,
+				B692E0BD1DBBACDB00379902 /* VQRatingSlider.m in Sources */,
 				5794A2D01D98FEC10088C9C5 /* VQModels.m in Sources */,
 				B647051B1DB90CDA00DE4C0D /* VQCustomSlider.m in Sources */,
 				B60AAF9B1DB3B5B6000FC854 /* VQPushButton.m in Sources */,
