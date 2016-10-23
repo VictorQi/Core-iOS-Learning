@@ -13,7 +13,7 @@
 #define ON_ART	[UIImage imageNamed:@"Star-White.png"]
 
 @interface VQRatingSlider ()
-@property (nonatomic, assign) NSInteger value;
+@property (nonatomic, readwrite, assign) NSInteger value;
 @end
 
 @implementation VQRatingSlider

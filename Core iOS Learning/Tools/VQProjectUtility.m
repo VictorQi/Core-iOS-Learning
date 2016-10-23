@@ -33,7 +33,7 @@
     [[UIColor colorWithWhite:aLevel alpha:1.0] setFill];
     CGContextAddEllipseInRect(ctx, elliseRect);
     CGContextFillPath(ctx);
-    
+    	
     // 写数值
     NSString *numString = [NSString stringWithFormat:@"%.1f", aLevel];
     UIColor *color = (aLevel > 0.5f) ? [UIColor blackColor] : [UIColor whiteColor];

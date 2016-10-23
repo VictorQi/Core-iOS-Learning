@@ -43,6 +43,7 @@
     
     VQRatingSlider *ratingSlider = [VQRatingSlider new];
     [self.view addSubview:ratingSlider];
+    [ratingSlider addTarget:self action:@selector(handleStarSliderChanged:) forControlEvents:UIControlEventValueChanged];
     [ratingSlider mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self.view);
         make.top.equalTo(self.view).offset(100);
@@ -61,6 +62,13 @@
 - (void)updateValue:(UISlider *)aSlider {
     // Scale the title view
 //    imageView.transform = CGAffineTransformMakeScale(1.0f + 4.0f * aSlider.value, 1.0f);
+}
+
+- (void)handleStarSliderChanged:(id)sender {
+    if ([sender isKindOfClass:[VQRatingSlider class]]) {
+        VQRatingSlider *slider = (VQRatingSlider *)sender;
+        NSLog(@"%@", [NSString stringWithFormat:@"%ld Stars", (long)slider.value]);
+    }
 }
 
 @end
