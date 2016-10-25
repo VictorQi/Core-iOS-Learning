@@ -11,6 +11,7 @@
 #import "VQPushButton.h"
 #import "VQCustomSlider.h"
 #import "VQRatingSlider.h"
+#import "FLCombo.h"
 
 @interface VQSecondViewController ()
 @property (nonatomic, strong) VQPushButton *pushBtn;
@@ -48,11 +49,23 @@
         make.centerX.equalTo(self.view);
         make.top.equalTo(self.view).offset(100);
     }];
+    
+    [self showComboView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)showComboView {
+    FLCombo *combo = [FLCombo new];
+    [self.view addSubview:combo];
+    [combo mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.bottom.trailing.equalTo(self.view);
+    }];
+//    [self.view bringSubviewToFront:combo];
+    [combo addTarget:self action:@selector(comboClick:) forControlEvents:UIControlEventTouchUpInside];
+}
+
+- (void)comboClick:(FLCombo *)comb {
+    static NSInteger clicktimes = 0;
+    NSLog(@"combo click %ld", (long)clicktimes++);
 }
 
 - (void)pushed:(VQPushButton *)aButton {

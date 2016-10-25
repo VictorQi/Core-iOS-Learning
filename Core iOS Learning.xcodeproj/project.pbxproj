@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5794A2D01D98FEC10088C9C5 /* VQModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5794A2CF1D98FEC10088C9C5 /* VQModels.m */; };
 		5794A2D31D98FF1D0088C9C5 /* VQCustomGestureTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5794A2D21D98FF1D0088C9C5 /* VQCustomGestureTestView.m */; };
+		57BD2B191DBF4F4E00C5E802 /* FLCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BD2B171DBF4F4E00C5E802 /* FLCombo.m */; };
 		B60AAF951DB2267C000FC854 /* TOUCHKitView.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AAF941DB2267C000FC854 /* TOUCHKitView.m */; };
 		B60AAF981DB226AE000FC854 /* TOUCHOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AAF971DB226AE000FC854 /* TOUCHOverlayWindow.m */; };
 		B60AAF9B1DB3B5B6000FC854 /* VQPushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AAF9A1DB3B5B6000FC854 /* VQPushButton.m */; };
@@ -44,6 +45,8 @@
 		5794A2CF1D98FEC10088C9C5 /* VQModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQModels.m; sourceTree = "<group>"; };
 		5794A2D11D98FF1D0088C9C5 /* VQCustomGestureTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQCustomGestureTestView.h; sourceTree = "<group>"; };
 		5794A2D21D98FF1D0088C9C5 /* VQCustomGestureTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQCustomGestureTestView.m; sourceTree = "<group>"; };
+		57BD2B171DBF4F4E00C5E802 /* FLCombo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLCombo.m; sourceTree = "<group>"; };
+		57BD2B181DBF4F4E00C5E802 /* FLCombo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLCombo.h; sourceTree = "<group>"; };
 		91F843E1750F49B4E09D251D /* Pods-Core iOS Learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core iOS Learning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Core iOS Learning/Pods-Core iOS Learning.debug.xcconfig"; sourceTree = "<group>"; };
 		A892222B8DC1A0633F6627AD /* Pods_Core_iOS_Learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Core_iOS_Learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B60AAF931DB2267C000FC854 /* TOUCHKitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOUCHKitView.h; sourceTree = "<group>"; };
@@ -208,6 +211,8 @@
 				B692E0BC1DBBACDB00379902 /* VQRatingSlider.m */,
 				B692E0BE1DBCA77700379902 /* VQScrollWheel.h */,
 				B692E0BF1DBCA77700379902 /* VQScrollWheel.m */,
+				57BD2B171DBF4F4E00C5E802 /* FLCombo.m */,
+				57BD2B181DBF4F4E00C5E802 /* FLCombo.h */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -408,6 +413,7 @@
 				B692F9111D98183100457383 /* UIBezierPath+Points.m in Sources */,
 				B6121EC41D86716F0066C818 /* main.m in Sources */,
 				B60AAF951DB2267C000FC854 /* TOUCHKitView.m in Sources */,
+				57BD2B191DBF4F4E00C5E802 /* FLCombo.m in Sources */,
 				B6121EDF1D8671AA0066C818 /* VQImageView.m in Sources */,
 				B60AAF981DB226AE000FC854 /* TOUCHOverlayWindow.m in Sources */,
 				B699DD9F1D87A6EA00382BEC /* VQHitTestImageView.m in Sources */,
