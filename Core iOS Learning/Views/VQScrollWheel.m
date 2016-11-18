@@ -7,7 +7,6 @@
 //
 
 #import "VQScrollWheel.h"
-#import "Masonry.h"
 
 @interface VQScrollWheel ()
 @property(nonatomic, readwrite, assign) CGFloat theta;

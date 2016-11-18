@@ -4,7 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AsyncDisplayKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINCache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PINRemoteImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -14,15 +29,40 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>ReactiveObjC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A9A83F63385AA43314397B8DD375464B</key>
+		<key>036B127354F7E233799228D9CE3847E1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C8E078AA41A6B409166A5B80DA66ACC1</key>
+		<key>5DD30CA95274E7FB0F575256ED95C39B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5F55189113AE45EC7C421A050A369FF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>81CF0B648FD0A2E1F69ACD3587A55B83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8910390D8E20CBA74DDD953EFF0ED904</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A9A83F63385AA43314397B8DD375464B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

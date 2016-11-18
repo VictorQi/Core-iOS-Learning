@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>dotc.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>B60B63841DD9B7820044FDA7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>B6121EBE1D86716F0066C818</key>
 		<dict>
 			<key>primary</key>

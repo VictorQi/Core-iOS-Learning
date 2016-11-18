@@ -7,7 +7,6 @@
 //
 
 #import "VQRatingSlider.h"
-#import "Masonry.h"
 
 #define OFF_ART	[UIImage imageNamed:@"Star-White-Half.png"]
 #define ON_ART	[UIImage imageNamed:@"Star-White.png"]

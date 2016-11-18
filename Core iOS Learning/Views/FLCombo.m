@@ -7,7 +7,6 @@
 //
 
 #import "FLCombo.h"
-#import "Masonry.h"
 
 static NSInteger const kTimerCountDown = 10; //倒数10个数
 static CGFloat const kFireInterval = 0.5;  //0.5s一次计数
@@ -164,9 +163,7 @@ static CGFloat const kFireInterval = 0.5;  //0.5s一次计数
 - (void)endTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event {
     CGPoint pt = [touch locationInView:self];
     self.image.highlighted = NO;
-    if (CGRectContainsPoint(self.bounds, pt)) {
-        [self sendActionsForControlEvents:UIControlEventTouchUpInside];
-    } else {
+    if (!CGRectContainsPoint(self.bounds, pt)) {
         [self sendActionsForControlEvents:UIControlEventTouchUpOutside];
     }
 }

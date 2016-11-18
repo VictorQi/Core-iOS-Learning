@@ -9,7 +9,7 @@
 #import "VQProjectUtility.h"
 
 @implementation VQProjectUtility
-+ (nullable UIImage *)thumbWithLevel:(CGFloat)aLevel {
++ (nonnull UIImage *)thumbWithLevel:(CGFloat)aLevel {
     CGFloat INSET_AMT = 1.5f;
     CGRect baseRect = CGRectMake(0.0, 0.0, 40.0, 100.0);
     CGRect thumbRect = (CGRect){0.0, 40.0, 40.0, 20.0};
@@ -60,7 +60,7 @@
     return theImg;
 }
 
-+ (nullable UIImage *)simpleThumb {
++ (nonnull UIImage *)simpleThumb {
     CGFloat INSET_AMT = 1.5f;
     CGRect baseRect = CGRectMake(0.0, 0.0, 40.0, 100.0);
     CGRect thumbRect = (CGRect){0.0, 40.0, 40.0, 20.0};
@@ -84,4 +84,5 @@
     
     return theImg;
 }
+
 @end

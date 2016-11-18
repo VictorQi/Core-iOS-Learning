@@ -14,6 +14,7 @@
 		B60AAF981DB226AE000FC854 /* TOUCHOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AAF971DB226AE000FC854 /* TOUCHOverlayWindow.m */; };
 		B60AAF9B1DB3B5B6000FC854 /* VQPushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AAF9A1DB3B5B6000FC854 /* VQPushButton.m */; };
 		B60AAF9E1DB3C348000FC854 /* VQSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B60AAF9D1DB3C348000FC854 /* VQSecondViewController.m */; };
+		B60B56D71DD994B40044FDA7 /* VQLockControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B60B56D61DD994B40044FDA7 /* VQLockControl.m */; };
 		B6121EC41D86716F0066C818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EC31D86716F0066C818 /* main.m */; };
 		B6121EC71D86716F0066C818 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EC61D86716F0066C818 /* AppDelegate.m */; };
 		B6121ECA1D86716F0066C818 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6121EC91D86716F0066C818 /* ViewController.m */; };
@@ -26,6 +27,8 @@
 		B6121EE61D8693070066C818 /* cap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6121EE51D8693070066C818 /* cap.jpg */; };
 		B64705181DB9026D00DE4C0D /* VQProjectUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = B64705171DB9026D00DE4C0D /* VQProjectUtility.m */; };
 		B647051B1DB90CDA00DE4C0D /* VQCustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B647051A1DB90CDA00DE4C0D /* VQCustomSlider.m */; };
+		B65AD6AD1DD84D5000F4B301 /* VQRibbonPull.m in Sources */ = {isa = PBXBuildFile; fileRef = B65AD6AC1DD84D5000F4B301 /* VQRibbonPull.m */; };
+		B65AD6AF1DD86A8D00F4B301 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = B65AD6AE1DD86A8D00F4B301 /* click.wav */; };
 		B67068851D995E63009E9128 /* VQDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67068841D995E63009E9128 /* VQDragView.m */; };
 		B67068881D996871009E9128 /* VQPullView.m in Sources */ = {isa = PBXBuildFile; fileRef = B67068871D996871009E9128 /* VQPullView.m */; };
 		B692E0BA1DBB9D9C00379902 /* VQColorControl.m in Sources */ = {isa = PBXBuildFile; fileRef = B692E0B91DBB9D9C00379902 /* VQColorControl.m */; };
@@ -38,6 +41,9 @@
 		B6B699485329701538FF4A84 /* Pods_Core_iOS_Learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A892222B8DC1A0633F6627AD /* Pods_Core_iOS_Learning.framework */; };
 		B6C45F171D89783A000EF40C /* VQSmoothDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C45F161D89783A000EF40C /* VQSmoothDrawingView.m */; };
 		B6C45F1A1D897884000EF40C /* UIBezierPath+Smoothing.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C45F191D897884000EF40C /* UIBezierPath+Smoothing.m */; };
+		B6EC30AC1DDDA1290099BCB6 /* VQPagedImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EC30AB1DDDA1290099BCB6 /* VQPagedImageScrollView.m */; };
+		B6EC30AE1DDDAC5C0099BCB6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6EC30AD1DDDAC5C0099BCB6 /* WebKit.framework */; };
+		B6FEB1341DCB877B00A10E17 /* VQDecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FEB1331DCB877B00A10E17 /* VQDecodeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +63,8 @@
 		B60AAF9A1DB3B5B6000FC854 /* VQPushButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQPushButton.m; sourceTree = "<group>"; };
 		B60AAF9C1DB3C348000FC854 /* VQSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQSecondViewController.h; sourceTree = "<group>"; };
 		B60AAF9D1DB3C348000FC854 /* VQSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQSecondViewController.m; sourceTree = "<group>"; };
+		B60B56D51DD994B40044FDA7 /* VQLockControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQLockControl.h; sourceTree = "<group>"; };
+		B60B56D61DD994B40044FDA7 /* VQLockControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQLockControl.m; sourceTree = "<group>"; };
 		B6121EBF1D86716F0066C818 /* Core iOS Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Core iOS Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6121EC31D86716F0066C818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6121EC51D86716F0066C818 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -73,10 +81,14 @@
 		B6121EE11D8673870066C818 /* UIView+transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+transform.h"; sourceTree = "<group>"; };
 		B6121EE21D8673870066C818 /* UIView+transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+transform.m"; sourceTree = "<group>"; };
 		B6121EE51D8693070066C818 /* cap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cap.jpg; sourceTree = "<group>"; };
+		B619C39E1DDD8D8A001E42C5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B64705161DB9026D00DE4C0D /* VQProjectUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQProjectUtility.h; sourceTree = "<group>"; };
 		B64705171DB9026D00DE4C0D /* VQProjectUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQProjectUtility.m; sourceTree = "<group>"; };
 		B64705191DB90CDA00DE4C0D /* VQCustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQCustomSlider.h; sourceTree = "<group>"; };
 		B647051A1DB90CDA00DE4C0D /* VQCustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQCustomSlider.m; sourceTree = "<group>"; };
+		B65AD6AB1DD84D5000F4B301 /* VQRibbonPull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQRibbonPull.h; sourceTree = "<group>"; };
+		B65AD6AC1DD84D5000F4B301 /* VQRibbonPull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQRibbonPull.m; sourceTree = "<group>"; };
+		B65AD6AE1DD86A8D00F4B301 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = click.wav; sourceTree = "<group>"; };
 		B67068831D995E63009E9128 /* VQDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQDragView.h; sourceTree = "<group>"; };
 		B67068841D995E63009E9128 /* VQDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQDragView.m; sourceTree = "<group>"; };
 		B67068861D996871009E9128 /* VQPullView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQPullView.h; sourceTree = "<group>"; };
@@ -99,6 +111,11 @@
 		B6C45F161D89783A000EF40C /* VQSmoothDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQSmoothDrawingView.m; sourceTree = "<group>"; };
 		B6C45F181D897884000EF40C /* UIBezierPath+Smoothing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Smoothing.h"; sourceTree = "<group>"; };
 		B6C45F191D897884000EF40C /* UIBezierPath+Smoothing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Smoothing.m"; sourceTree = "<group>"; };
+		B6EC30AA1DDDA1290099BCB6 /* VQPagedImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQPagedImageScrollView.h; sourceTree = "<group>"; };
+		B6EC30AB1DDDA1290099BCB6 /* VQPagedImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQPagedImageScrollView.m; sourceTree = "<group>"; };
+		B6EC30AD1DDDAC5C0099BCB6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		B6FEB1321DCB877B00A10E17 /* VQDecodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VQDecodeViewController.h; sourceTree = "<group>"; };
+		B6FEB1331DCB877B00A10E17 /* VQDecodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VQDecodeViewController.m; sourceTree = "<group>"; };
 		E4D2008A82AF51B0E982AE7B /* Pods-Core iOS Learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Core iOS Learning.release.xcconfig"; path = "Pods/Target Support Files/Pods-Core iOS Learning/Pods-Core iOS Learning.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EC30AE1DDDAC5C0099BCB6 /* WebKit.framework in Frameworks */,
 				B6B699485329701538FF4A84 /* Pods_Core_iOS_Learning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +144,7 @@
 		28CD4C3D7459BDDD47553A18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B6EC30AD1DDDAC5C0099BCB6 /* WebKit.framework */,
 				A892222B8DC1A0633F6627AD /* Pods_Core_iOS_Learning.framework */,
 			);
 			name = Frameworks;
@@ -173,6 +192,7 @@
 				B6121EE41D8692D60066C818 /* ViewControllers */,
 				B6121EDC1D86717D0066C818 /* Views */,
 				B6121ED61D86716F0066C818 /* Info.plist */,
+				B619C39E1DDD8D8A001E42C5 /* PrefixHeader.pch */,
 			);
 			path = "Core iOS Learning";
 			sourceTree = "<group>";
@@ -211,6 +231,12 @@
 				B692E0BC1DBBACDB00379902 /* VQRatingSlider.m */,
 				B692E0BE1DBCA77700379902 /* VQScrollWheel.h */,
 				B692E0BF1DBCA77700379902 /* VQScrollWheel.m */,
+				B65AD6AB1DD84D5000F4B301 /* VQRibbonPull.h */,
+				B65AD6AC1DD84D5000F4B301 /* VQRibbonPull.m */,
+				B60B56D51DD994B40044FDA7 /* VQLockControl.h */,
+				B60B56D61DD994B40044FDA7 /* VQLockControl.m */,
+				B6EC30AA1DDDA1290099BCB6 /* VQPagedImageScrollView.h */,
+				B6EC30AB1DDDA1290099BCB6 /* VQPagedImageScrollView.m */,
 				57BD2B171DBF4F4E00C5E802 /* FLCombo.m */,
 				57BD2B181DBF4F4E00C5E802 /* FLCombo.h */,
 			);
@@ -243,6 +269,8 @@
 				B6121EC91D86716F0066C818 /* ViewController.m */,
 				B60AAF9C1DB3C348000FC854 /* VQSecondViewController.h */,
 				B60AAF9D1DB3C348000FC854 /* VQSecondViewController.m */,
+				B6FEB1321DCB877B00A10E17 /* VQDecodeViewController.h */,
+				B6FEB1331DCB877B00A10E17 /* VQDecodeViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -250,6 +278,7 @@
 		B6121EE71D86930D0066C818 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B65AD6AE1DD86A8D00F4B301 /* click.wav */,
 				B6121ED11D86716F0066C818 /* Assets.xcassets */,
 				B6121ED31D86716F0066C818 /* LaunchScreen.storyboard */,
 				B6121ECB1D86716F0066C818 /* Main.storyboard */,
@@ -331,6 +360,7 @@
 			files = (
 				B6121ED51D86716F0066C818 /* LaunchScreen.storyboard in Resources */,
 				B6121ED21D86716F0066C818 /* Assets.xcassets in Resources */,
+				B65AD6AF1DD86A8D00F4B301 /* click.wav in Resources */,
 				B6121EE61D8693070066C818 /* cap.jpg in Resources */,
 				B6121ECD1D86716F0066C818 /* Main.storyboard in Resources */,
 			);
@@ -391,6 +421,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FEB1341DCB877B00A10E17 /* VQDecodeViewController.m in Sources */,
+				B65AD6AD1DD84D5000F4B301 /* VQRibbonPull.m in Sources */,
 				B692E0BA1DBB9D9C00379902 /* VQColorControl.m in Sources */,
 				B6C45F1A1D897884000EF40C /* UIBezierPath+Smoothing.m in Sources */,
 				B692E0BD1DBBACDB00379902 /* VQRatingSlider.m in Sources */,
@@ -405,6 +437,7 @@
 				B64705181DB9026D00DE4C0D /* VQProjectUtility.m in Sources */,
 				B6121ECA1D86716F0066C818 /* ViewController.m in Sources */,
 				B6121EC71D86716F0066C818 /* AppDelegate.m in Sources */,
+				B60B56D71DD994B40044FDA7 /* VQLockControl.m in Sources */,
 				5794A2D31D98FF1D0088C9C5 /* VQCustomGestureTestView.m in Sources */,
 				B67068851D995E63009E9128 /* VQDragView.m in Sources */,
 				B692F8FF1D97A92200457383 /* VQCircleRecognizer.m in Sources */,
@@ -412,6 +445,7 @@
 				B692E0C01DBCA77700379902 /* VQScrollWheel.m in Sources */,
 				B692F9111D98183100457383 /* UIBezierPath+Points.m in Sources */,
 				B6121EC41D86716F0066C818 /* main.m in Sources */,
+				B6EC30AC1DDDA1290099BCB6 /* VQPagedImageScrollView.m in Sources */,
 				B60AAF951DB2267C000FC854 /* TOUCHKitView.m in Sources */,
 				57BD2B191DBF4F4E00C5E802 /* FLCombo.m in Sources */,
 				B6121EDF1D8671AA0066C818 /* VQImageView.m in Sources */,
@@ -537,6 +571,7 @@
 			baseConfigurationReference = 91F843E1750F49B4E09D251D /* Pods-Core iOS Learning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = "Core iOS Learning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "v.q.Core-iOS-Learning";
@@ -549,6 +584,7 @@
 			baseConfigurationReference = E4D2008A82AF51B0E982AE7B /* Pods-Core iOS Learning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = "Core iOS Learning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "v.q.Core-iOS-Learning";

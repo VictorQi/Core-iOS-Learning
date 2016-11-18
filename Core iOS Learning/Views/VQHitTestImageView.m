@@ -20,7 +20,7 @@ static NSUInteger alphaOffset(NSUInteger x, NSUInteger y, NSUInteger w, CGFloat 
     return (y * w * 4 * scale + x * 4 * scale);
 }
 
-NSData *getBitmapFromImage(UIImage *sourceImage) {
+static NSData *getBitmapFromImage(UIImage *sourceImage) {
     if (!sourceImage) {
         return nil;
     }

@@ -9,6 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface VQProjectUtility : NSObject
-+ (nullable UIImage *)thumbWithLevel:(CGFloat)aLevel;
-+ (nullable UIImage *)simpleThumb;
++ (nonnull UIImage *)thumbWithLevel:(CGFloat)aLevel;
++ (nonnull UIImage *)simpleThumb;
 @end
